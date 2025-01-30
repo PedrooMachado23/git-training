@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'git-training-1/**'
+  workflow_dispatch:
 
 jobs:
   update-submodules:
