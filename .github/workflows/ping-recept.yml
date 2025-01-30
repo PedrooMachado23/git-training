@@ -1,6 +1,8 @@
 name: Ping receptor
 
-on: [repository_dispatch]
+on:
+  repository_dispatch:
+    types: [ping]
 
 jobs:
   update-submodules:
